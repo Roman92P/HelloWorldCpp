@@ -10,11 +10,21 @@ int main()
 
     //std::cout << "You entered " << x << " and " << y << '\n';
     
+    /*std::cout << "Enter an integer: ";
+
+    int num{ };
+    std::cin >> num;
+
+    std::cout << "Double " << num << " is: " << num * 2 << '\n';
+    std::cout << "Triple " << num << " is: " << num * 3 << '\n';*/
+
+    int a, b;
     std::cout << "Enter an integer: ";
-    int x{ };
-    std::cin >> x;
-    x = x * 2;
-    std::cout << "Double that number is: " << x << "\n";
+    std::cin >> a;
+    std::cout << "Enter another integer: ";
+    std::cin >> b;
+    std::cout << a << " + " << b << " is " << a + b << '\n';
+    std::cout << a << " - " << b << " is " << a - b << '\n';
     
 
     return 0;
